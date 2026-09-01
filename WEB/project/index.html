@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PAGE 1: Cute Panda & Tricky Buttons -->
+  <section id="page-1" class="page active">
+    <div class="card">
+      <!-- Animated Cute Panda -->
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3p0eGN1YmE2Mm9kZm02a3MyeTFzcGkyeWZ5dzBwaWZvZjhlaHN2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/EatwJZRUIv41G/giphy.gif" alt="Cute Panda" class="panda-img">
+      <h2>Are you ready for your birthday surprise? 🐼</h2>
+      <div class="btn-group">
+        <button id="yes-btn">Yes! 💕</button>
+        <button id="no-btn">No 😜</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAGE 2: Animated Photo Gallery -->
+  <section id="page-2" class="page">
+    <h2>Special Memories ✨</h2>
+    <div class="gallery">
+      <div class="photo-card" style="--order: 1;"><img src="photo1.jpg" alt="Memory 1"></div>
+      <div class="photo-card" style="--order: 2;"><img src="photo2.jpg" alt="Memory 2"></div>
+      <div class="photo-card" style="--order: 3;"><img src="photo3.jpg" alt="Memory 3"></div>
+      <div class="photo-card" style="--order: 4;"><img src="photo4.jpg" alt="Memory 4"></div>
+    </div>
+    <button id="next-page-btn" class="nav-btn">Read My Wish 💌</button>
+  </section>
+
+  <!-- PAGE 3: Custom Birthday Message -->
+  <section id="page-3" class="page">
+    <div class="card wish-card">
+      <h1>🎂 Happy Birthday! 🎂</h1>
+      <p class="custom-wish">
+        lv u
+      </p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
